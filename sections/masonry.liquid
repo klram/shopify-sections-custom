@@ -1,0 +1,24 @@
+<!-- Masonry Grid Title -->
+<h2>{{ section.settings.grid_title }}</h2>
+
+<!-- image, text and url are nested in the block -->
+
+<!-- Pull in Image from masonry grid -->
+<!-- Pull in Text from masonry grid -->
+<!-- Pull in URL from masonry grid -->
+
+<div
+  class="grid"
+  data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'
+>
+  <div class="grid-item"></div>
+  <div class="grid-item"></div>
+</div>
+
+{% schema %} { "name": "Masonry Grid Experimental", "settings": [ { "id":
+"grid_title", "type": "text", "label": "Add title for the masonry grid" } ],
+"templates": ["index", "page"], "presets": [ { "name": "Custom Masonry Grid",
+"category": "Masonry" } ], "blocks": [ { "name": "Masonry Image", "type":
+"masonry-image", "settings": [ { "type": "image_picker", "id": "image", "label":
+"Image" }, { "type": "text", "id": "text", "label": "Text" }, { "type": "url",
+"id": "url", "label": "URL" } ] } ] } {% endschema %}
