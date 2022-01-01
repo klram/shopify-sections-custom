@@ -194,28 +194,31 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/14peperomia.jpg",
             "text": "Peperomia",
-            "url": ""
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "379d6e9a-4f21-4b2c-a382-845832cc8135": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/7fittonia.jpg",
+            "text": "Red Fittonia",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "b7afe78e-4d80-4601-83c6-0a5511c1510c": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/13peace-lily.jpg",
+            "text": "Peace Lily",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "4b866c5f-664f-47eb-a743-9b96e901248f": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/6ficus-nana.jpg",
+            "text": "Ficus Nana",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "43947ca3-78cb-4245-accd-e152dbe9b723": {
@@ -274,7 +277,7 @@
         "1d78de0d-d997-4816-aac0-761220f88932"
       ],
       "settings": {
-        "grid_title": ""
+        "grid_title": "See my gallery of plants"
       }
     }
   },
