@@ -224,43 +224,57 @@
         "43947ca3-78cb-4245-accd-e152dbe9b723": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/11monstera.jpg",
+            "text": "Monstera Deliciosa and Adansonii",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "b3f2d06a-8638-4609-93e0-efb4c6bf0624": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/10jade-fittonia-zebra.jpg",
+            "text": "Jade Plant",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "d4d387c3-ef10-4671-922f-23f856cfec01": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/9silver-pothos.jpg",
+            "text": "Hanging Pothos",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "026bf9c9-236d-425b-9dc4-8698741cfda1": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/8green-fittonia.jpg",
+            "text": "Green Fittonia",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "e05ed416-d8d1-4787-a206-d620e699a8fb": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/12oxalis.jpg",
+            "text": "Oxalis (Lush)",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         },
         "1d78de0d-d997-4816-aac0-761220f88932": {
           "type": "masonry-image",
           "settings": {
-            "text": "",
-            "url": ""
+            "image": "shopify:\/\/shop_images\/19birkin.jpg",
+            "text": "Birkin",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
+          }
+        },
+        "b46a417a-0b86-42a2-b9be-73f913f561cc": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_20200823_171138.jpg",
+            "text": "Chinese Evergreen",
+            "url": "https:\/\/plantitohub.myshopify.com\/"
           }
         }
       },
@@ -274,7 +288,8 @@
         "d4d387c3-ef10-4671-922f-23f856cfec01",
         "026bf9c9-236d-425b-9dc4-8698741cfda1",
         "e05ed416-d8d1-4787-a206-d620e699a8fb",
-        "1d78de0d-d997-4816-aac0-761220f88932"
+        "1d78de0d-d997-4816-aac0-761220f88932",
+        "b46a417a-0b86-42a2-b9be-73f913f561cc"
       ],
       "settings": {
         "grid_title": "See my gallery of plants"
