@@ -1,23 +1,25 @@
-<!-- Masonry Grid Title -->
-<h2>{{ section.settings.grid_title }}</h2>
+<section class="page-width" id="masonry">
+  <!-- Display Masonry Grid Title -->
+  <h2>{{ section.settings.grid_title }}</h2>
 
-<!-- image, text and url are nested in the block -->
-<div class="masonry-grid">
-  {%- for block in section.blocks -%}
-  <div class="grid-item">
-    <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
-      <img
-        src="{{ block.settings.image | image_url: width:400 }}"
-        alt="{{ block.settings.text }}"
-        loading="lazy"
-      />
-    </a>
-    <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
-      <h3>{{ block.settings.text }}</h3>
-    </a>
+  <!-- image, text and url are nested in the block -->
+  <div class="masonry-grid">
+    {%- for block in section.blocks -%}
+    <div class="grid-item">
+      <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
+        <img
+          src="{{ block.settings.image | image_url: width:300 }}"
+          alt="{{ block.settings.text }}"
+          loading="lazy"
+        />
+      </a>
+      <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
+        <h3>{{ block.settings.text }}</h3>
+      </a>
+    </div>
+    {%- endfor -%}
   </div>
-  {%- endfor -%}
-</div>
+</section>
 
 {% schema %} { "name": "Masonry Grid Experimental", "settings": [ { "id":
 "grid_title", "type": "text", "label": "Add title for the masonry grid" } ],
@@ -25,7 +27,6 @@
 "category": "Masonry" } ], "blocks": [ { "name": "Masonry Image", "type":
 "masonry-image", "settings": [ { "type": "image_picker", "id": "image", "label":
 "Image" }, { "type": "text", "id": "text", "label": "Text" }, { "type": "url",
-"id": "url", "label": "URL" } ] } ] } {% endschema %} {% javascript %} //
-vanilla JS // init with element var grid =
-document.querySelector('.masonry-grid'); var msnry = new Masonry( grid, { //
-options... itemSelector: '.grid-item', columnWidth: 200 }); {% endjavascript %}
+"id": "url", "label": "URL" } ] } ] } {% endschema %} {% javascript %} var grid
+= document.querySelector('.masonry-grid'); var msnry = new Masonry( grid, {
+itemSelector: '.grid-item', columnWidth: 300 }); {% endjavascript %}
